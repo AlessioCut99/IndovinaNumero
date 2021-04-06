@@ -87,7 +87,7 @@ public class FXMLController {
     	
     	if(result == 0) {
     		//HO INDOVINATO!
-    		txtRisultato.setText("HAI VINTO CON " + this.model.getTentativiFatti() + "TENTATIVI");
+    		txtRisultato.setText("HAI VINTO CON " + this.model.getTentativiFatti() + " TENTATIVI");
     		this.layoutTentativo.setDisable(true);
     		return;
     	} else if(result < 0) {
